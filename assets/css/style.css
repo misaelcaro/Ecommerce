@@ -6,7 +6,7 @@
   --header-height: 3.5rem;
 
   /*========== Colors ==========*/
-  --first-color: hsl(354, 78%, 60%);
+  --first-color: #2D639C ;
   --button-color: hsl(0, 0%, 17%);
   --button-color-alt: hsl(0, 0%, 21%);
   --card-color: hsl(0, 0%, 100%);
@@ -113,7 +113,7 @@ button {
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
 body.dark-theme {
-  --first-color: hsl(182, 53%, 74%);
+  --first-color: hsl(56, 64%, 68%);
   --button-color: hsl(246, 16%, 12%);
   --button-color-alt: hsl(0, 0%, 28%);
   --card-color: hsla(246, 16%, 5%, .5);
@@ -509,10 +509,11 @@ body.dark-theme {
 }
 
 .products__shape {
-  background-color: var(--card-color);
+  background-color: lightskyblue;
   border-radius: .5rem .5rem 0 0;
   text-align: center;
   padding: .25rem 0;
+  
 }
 
 .products__data {
